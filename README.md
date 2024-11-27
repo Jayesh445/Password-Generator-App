@@ -108,11 +108,11 @@ password-generator-app/
 
 **Here’s how the app looks:**
 
-<img src="assets/images/preview-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812">
+<img src="assets/images/preview-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812"><br><br>
 <!-- ![Password Generator Screenshot](assets/images/preview-screenshot.jpg) -->
 
-**Here’s how it generate Password**
-<img src="assets/images/working-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812">
+**Here’s how it generate Password** <br>
+<img src="assets/images/working-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812"> <br>
 <!-- ![Password Generator Screenshot](assets/images/working-screenshot.jpg) -->
 
 ---
