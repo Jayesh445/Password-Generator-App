@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 15,
-    flex: 1,
+    width: 180,
   },
   inputWrapper: {
     marginBottom: 15,

@@ -1,50 +1,158 @@
-# Welcome to your Expo app 👋
+# Password Generator App 📱🔐
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the **Password Generator App**, a simple and efficient tool built using **React Native** and **Expo**. This app allows users to generate secure and customizable passwords based on their preferences.
 
-## Get started
+---
 
-1. Install dependencies
+## 🛠️ Features
+
+- Generate passwords of user-defined length.
+- Options to include:
+  - Lowercase letters
+  - Uppercase letters
+  - Numbers
+  - Symbols
+- Form validation using **Yup**.
+- Clean and intuitive UI with **Formik** for easy form management.
+- Copy generated password functionality.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get the project up and running on your local environment.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A mobile device with **Expo Go** app or an emulator (iOS/Android).
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/password-generator-app.git
+   cd password-generator-app
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the development server:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the app:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Scan the QR code using the Expo Go app on your mobile device.
+- Or use an emulator (Android/iOS).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+```markdown
+## 📂 Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+password-generator-app/
+├── App.js # Main application logic
+├── package.json # Project dependencies and metadata
+├── node_modules/ # Installed npm packages
+└── README.md # Project documentation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Tech Stack
 
-## Learn more
+- **React Native**: Build the cross-platform mobile app.
+- **Expo**: Simplifies the development process with a powerful toolkit.
+- **Formik**: Simplifies form management.
+- **Yup**: Provides schema validation for form inputs.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📚 Libraries Used
 
-## Join the community
+### 1. **Formik**
 
-Join our community of developers creating universal apps.
+- A library for building forms in React.
+- Used here for managing the form state and handling submissions.
+- **Official Documentation**: [Formik](https://formik.org/)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 2. **Yup**
+
+- A JavaScript schema builder for runtime value parsing and validation.
+- Used to ensure password length is between 4 and 16 characters.
+- **Official Documentation**: [Yup](https://github.com/jquense/yup)
+
+### 3. **BouncyCheckbox**
+
+- Provides animated checkboxes.
+- Used for toggling the inclusion of password components.
+
+### 4. **React Native Components**
+
+- Core components such as `Text`, `TextInput`, `TouchableOpacity`, and `View` are used for UI creation.
+
+---
+
+## 🎨 UI Preview
+
+**Screenshots !!!**
+
+**Here’s how the app looks:**
+
+![Password Generator Screenshot](assets/images/preview-screenshot.jpg)
+
+**Here’s how it generate Password**
+![Password Generator Screenshot](assets/images/working-screenshot.jpg)
+
+---
+
+## 🔍 How It Works
+
+1. Input the desired password length.
+2. Toggle checkboxes to include/exclude character types.
+3. Click **Generate Password** to get a secure password.
+4. Long press the generated password to copy it to the clipboard.
+
+---
+
+## 📝 Validation Rules
+
+The app uses **Yup** for form validation:
+
+- Password length must be between **4** and **16**.
+- An error message is displayed if validation fails.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+- Fork the repository.
+- Create a new branch.
+- Submit a pull request with your changes.
+
+---
+
+## 🌟 Acknowledgments
+
+- [Formik](https://formik.org/) for simplified form management.
+- [Yup](https://github.com/jquense/yup) for robust validation.
+- The **React Native** and **Expo** communities for excellent resources and support.
+
+---
+
+## 📞 Support
+
+If you encounter any issues or have suggestions, please feel free to [open an issue](https://github.com/Jayesh445/password-generator-app/issues).
+
+---
+
+Enjoy the app! 🚀🔐
