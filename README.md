@@ -59,10 +59,13 @@ Make sure you have the following installed:
 ## 📂 Project Structure
 ```markdown
 password-generator-app/
-├── App.js # Main application logic
-├── package.json # Project dependencies and metadata
-├── node_modules/ # Installed npm packages
-└── README.md # Project documentation
+├── app/index.js   # Main application logic
+├── assets/        # All the assets for the application eg. icon, splash-screen
+├── script/        # All the scripts for the application
+├── app.json       # All metadata of expo application
+├── package.json   # Project dependencies and metadata
+├── node_modules/  # Installed npm packages
+└── README.md      # Project documentation
 ```
 
 ## 🛠️ Tech Stack
@@ -105,10 +108,12 @@ password-generator-app/
 
 **Here’s how the app looks:**
 
-![Password Generator Screenshot](assets/images/preview-screenshot.jpg)
+<img src="assets/images/preview-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812">
+<!-- ![Password Generator Screenshot](assets/images/preview-screenshot.jpg) -->
 
 **Here’s how it generate Password**
-![Password Generator Screenshot](assets/images/working-screenshot.jpg)
+<img src="assets/images/working-screenshot.jpg" alt="Password Generator Screenshot" width="375" height="812">
+<!-- ![Password Generator Screenshot](assets/images/working-screenshot.jpg) -->
 
 ---
 
