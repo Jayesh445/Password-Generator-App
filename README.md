@@ -56,9 +56,8 @@ Make sure you have the following installed:
 - Scan the QR code using the Expo Go app on your mobile device.
 - Or use an emulator (Android/iOS).
 
-```markdown
 ## 📂 Project Structure
-
+```markdown
 password-generator-app/
 ├── App.js # Main application logic
 ├── package.json # Project dependencies and metadata
